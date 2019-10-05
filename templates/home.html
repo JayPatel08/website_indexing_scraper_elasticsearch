@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+  <link rel="icon" href="http://obj-cache.cloud.ruanbekker.com/favicon.ico">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <title>Documents Search</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <div style="background:transparent !important" class="jumbotron">
+      <div style="font-family: 'Comfortaa', cursive;">
+        <p>
+          <center>
+          <font size="8">Search using ElasticSearch</font>
+          </center>
+        </p>
+      </div>
+    </div>
+
+  <div style="text-align:center" class="form-group">
+    <form id="upload-form" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+        <input type="text" class="form-control input-lg" name="url" placeholder="Enter the url" autofocus>
+        <br>
+        <br>
+       <input type="text" class="form-control input-lg" name="index" placeholder="Enter index name" autofocus>
+
+        <br>
+        <input style="margin-top:10px" class="btn btn-primary btn-lg"  type="submit" value="send">
+    </form>
+  </div>
+
+
+
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+
+    <br><br>
+
+      </div>
+    </div>
+  </body>
+</html>
